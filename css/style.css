@@ -75,6 +75,34 @@ ul li {
 	display: none;
 }
 
+.resume {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	background-color: #2a3a50;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-left: 17%;
+	margin-right: 17%;
+	border-radius: 20px;
+}
+.resume a {
+	margin: 5px 0 5px 0;
+	background-color: aliceblue;
+	padding: 8px;
+	border-radius: 5px;
+	color: #2a3a50;
+	font-size: 16px;
+	font-weight: 600;
+}
+.resume a:hover {
+	background-color: transparent;
+	color: aliceblue;
+	transform: scale(0.95);
+	transition: all 0.3s ease-out;
+}
+
 /*adding media queries*/
 @media screen and (min-width: 279px) and (max-width: 768px) {
 	.navbar .logo {
@@ -179,7 +207,7 @@ ul li {
 	text-align: center;
 	justify-content: center;*/
 }
-.intro-title {
+.container .about-container .intro .intro-title {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-transform: capitalize;
@@ -192,6 +220,24 @@ ul li {
 	margin-bottom: 60px;
 	font-size: 18px;
 	font-weight: 700;
+}
+
+.intro-title,
+.intro-title1 {
+	text-align: center;
+	background-color: aliceblue;
+	color: #2a3a50;
+	border-radius: 10px;
+}
+.intro-title:hover {
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+.intro-title1:hover {
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
 }
 .about {
 	margin-top: 15px;
@@ -245,7 +291,6 @@ ul li {
 		font-weight: 400;
 	}
 }
-
 
 /*@media screen and (min-width: 990px) and (max-width: 1039px) {
 	.container .image img {
@@ -437,8 +482,6 @@ ul li {
 		margin-top: 90px;
 	}
 }
-
-
 
 /*styling the contact section
 .contact-container {
