@@ -1,3 +1,5 @@
+
+ 
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll("a");
 const menuLength = menuItem.length;
@@ -29,11 +31,9 @@ inputs.forEach((input) => {
 /*
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n){
 	showSlides(slideIndex += n);
 }
-
 function currentSlide(n){
 	showSlides(slideIndex = n);
 }
@@ -46,11 +46,9 @@ function currentSlide(n){
 	 for(i = 0; i < slides.length; i++){
 		 slides[i].style.display = "none";
 	 }
-
 	 for(i = 0; i < slides.length; i++){
 		 dots[i].className = dots[i].className.replace("active", "")
 	 }
-
 	 showSlides[slideIndex - 1].style.display = "block";
 	 dots[slideIndex - 1].className += "active";
  }*/

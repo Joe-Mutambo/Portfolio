@@ -236,12 +236,10 @@ ul li {
 	border-radius: 10px;
 }
 .intro-title:hover {
-	letter-spacing: 2px;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
 .intro-title1:hover {
-	letter-spacing: 2px;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
