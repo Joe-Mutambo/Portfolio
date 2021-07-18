@@ -80,8 +80,9 @@
 
 @media screen and (max-width: 450px) {
 	.service-container {
-		padding: 10px;
-		margin: 5px;
+		width: 100%;
+		padding: 15px;
+		margin: 0px;
 	}
 	.service-boxes {
 		padding: 5px 27px 5px 0;

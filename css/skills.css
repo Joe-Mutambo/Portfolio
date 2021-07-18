@@ -30,6 +30,11 @@
 	margin: 10px;
 	border-radius: 20px;
 	padding: 10px;
+	box-shadow: 0 0 20px 1px rgba(232, 243, 254, 0.4);
+}
+.skills-container .skills .skill-set:hover {
+	transform: scale(1.02);
+	transition: all 0.3s ease-out;
 }
 .skills-container .skills .skill-set .progress-line {
 	position: relative;
@@ -165,14 +170,14 @@
 .skills-container .skills .skill-set span {
 	font-size: 24px;
 	font-weight: 700;
-    color: #2a3a50;
+	color: #2a3a50;
 	margin: 15px 0 5px 0;
 }
 .skills-container .skills .skill-set .skill-type {
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 15px;
-	color: #2a3a50
+	color: #2a3a50;
 }
 
 /*adding media queries*/

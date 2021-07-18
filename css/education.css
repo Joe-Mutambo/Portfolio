@@ -1,0 +1,179 @@
+.education-container {
+	width: 95%;
+	background-color: #1c1e24;
+	padding: 2.7rem;
+	justify-content: center;
+	margin-left: 2rem;
+}
+.education-container .school-background {
+	background-color: #2a3a50;
+	color: aliceblue;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.education-container .content-container {
+	padding: 0.95rem 2.2rem 1rem 2.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #2a3a50;
+	border-radius: 20px;
+}
+.education-container .content-container .content-one {
+	background-color: aliceblue;
+	color: #2a3a50;
+	padding: 2rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+	font-size: 24px;
+	font-weight: 600;
+	border-radius: 15px;
+	box-shadow: 0 0 20px 1px rgba(232, 243, 254, 0.4);
+}
+.education-container .content-container .content-one:hover {
+	box-shadow: 0 0 20px 1px rgba(62, 110, 158, 0.6);
+	transform: scale(1.02);
+	transition: all 0.3s ease-out; 
+	background-color: #2a3a50;
+	color: aliceblue;
+}
+
+.education-container .content-container .content-one i {
+	margin: 10px;
+}
+.education-container .content-container .content-two {
+	display: flex;
+}
+.education-container .content-container .content-two .content-two-1 {
+	background-color: aliceblue;
+	color: #2a3a50;
+	padding: 2rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 15px;
+	margin-right: 10px;
+	width: 50%;
+	box-shadow: 0 0 20px 1px rgba(232, 243, 254, 0.4);
+}
+.education-container .content-container .content-two .content-two-1:hover {
+	box-shadow: 0 0 20px 1px rgba(62, 110, 158, 0.6);
+	transform: scale(1.02);
+	transition: all 0.3s ease-out; 
+	background-color: #2a3a50;
+	color: aliceblue;
+}
+.education-container .content-container .content-two .content-two-1 i {
+	margin: 10px;
+}
+.education-container .content-container .content-two .content-two-2 {
+	background-color: aliceblue;
+	color: #2a3a50;
+	padding: 2rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 15px;
+	margin-left: 10px;
+	width: 50%;
+	box-shadow: 0 0 20px 1px rgba(232, 243, 254, 0.4);
+}
+.education-container .content-container .content-two .content-two-2:hover {
+	box-shadow: 0 0 20px 1px rgba(62, 110, 158, 0.6);
+	transform: scale(1.02);
+	transition: all 0.3s ease-out;
+	background-color: #2a3a50;
+	color: aliceblue;
+}
+.education-container .content-container .content-two .content-two-2 i {
+	margin: 10px;
+}
+@media screen and (max-width: 980px) {
+	.education-container .content-container .content-two {
+		display: flex;
+		flex-direction: column;
+	}
+	.education-container .content-container .content-two .content-two-1 {
+		font-size: 22px;
+		width: 100%;
+	}
+	.education-container .content-container .content-two .content-two-2 {
+		font-size: 22px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.education-container {
+		width: 95%;
+		background-color: #1c1e24;
+		padding: 1.5rem;
+		justify-content: center;
+		margin-left: 15px;
+	}
+	.education-container .content-container {
+		padding: 0.95rem 1.2rem 1rem 1.2rem;
+	}
+	.education-container .content-container .content-one {
+		padding: 1.5rem;
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+		font-size: 16px;
+	}
+	.education-container .content-container .content-one:hover {
+		transform: scale(1.01);
+		transition: all 0.3s ease-out; 
+		background-color: #2a3a50;
+	}
+	.education-container .content-container .content-two .content-two-1 {
+		padding: 1.5rem;
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+		font-size: 16px;
+	}
+	.education-container .content-container .content-two .content-two-1:hover {
+		transform: scale(1.01);
+		transition: all 0.3s ease-out; 
+	}
+
+	.education-container .content-container .content-two .content-two-2 {
+		padding: 1.5rem;
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+		font-size: 16px;
+	}
+	.education-container .content-container .content-two .content-two-2:hover {
+		transform: scale(1.01);
+		transition: all 0.3s ease-out; 
+	}
+}
+@media screen and (max-width: 450px) {
+	.education-container {
+		width: 100%;
+		padding: 10px;
+		margin-left: 0px;
+	}
+	.education-container .content-container {
+		padding: 5px;
+	}
+	.education-container .content-container .content-one {
+		padding: 15px 10px 15px 10px;
+		justify-content: center;
+	}
+	.education-container .content-container .content-two .content-two-1 {
+		justify-content: center;
+		padding: 15px 10px 15px 10px;
+	}
+	.education-container .content-container .content-two .content-two-2 {
+		justify-content: center;
+		padding: 15px 10px 15px 10px;
+		margin-left: 0px;
+	}
+}
